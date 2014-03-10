@@ -343,5 +343,9 @@ class Shell {
 
 int main(int argc, char *argv[]){
 	
+	Shell *s = new Shell();
+	s->commandLine();
+	delete s;
+	
 	return 0;
 }
